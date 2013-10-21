@@ -1,0 +1,16 @@
+{
+  "name": "angularjs-testing",
+  "version": "0.1.0",
+  "description": "Tuto de tests avec angularjs",
+  "authors": [
+    "Occitech <contact@occitech.fr>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.2"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.2"
+  }
+}
