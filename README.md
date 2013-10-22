@@ -7,6 +7,8 @@
 
 ## Installation des dépendances
 
+(aka "Téléchargement d'internet")
+
 ```
 $ npm install
 $ bower install

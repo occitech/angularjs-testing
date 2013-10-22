@@ -19,7 +19,8 @@ describe('FooController', function() {
   it('should call /api/foo.json on $scope.save()', inject(function($httpBackend) {
     $scope.save();
 
-    $httpBackend.expectPOST('/api/foo.json');
+    $httpBackend.expectPOST('/api/foo.json').respond();
+    $httpBackend.flush();
   }));
 
   it('should redirect to /redirect/to/url', inject(function($httpBackend) {
